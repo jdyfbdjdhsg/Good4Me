@@ -1,0 +1,271 @@
+@media (min-width: 768px) {
+    
+    .mobile {
+        display: none;
+    }
+
+    .container {
+        padding: 0 93px;
+    }
+
+    .deckstop {
+        display: block;
+    }
+
+    .burger {
+        display: none; 
+    }
+
+    .nav {
+        display: flex !important; 
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0;
+        background: none;
+        animation: none;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .nav ul li {
+        font-size: 16px;
+        color: #454545;
+    }
+
+    .header__logo {
+        order: -1;
+        color: #111;
+    }
+
+    .header {
+        background-color: #fff;
+        position: static;
+    }
+
+    .header__items {
+        display: flex;
+        gap: 132px;
+    }
+
+    .header__icons {
+        display: flex;
+        gap: 15px;
+    }
+
+    /* Main */
+
+    .main {
+        background: url(../assests/img/MaskGroup.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .cider {
+        position: relative;
+        margin-left: auto;
+        max-width: 545px;
+        padding: 150px 0 230px;
+        margin-right: 150px;
+    }
+
+    .cider_up {
+        font-size: 26px;
+        font-weight: bold;
+        color: #F6623E;
+    }
+
+    .cider__name {
+        font-size: 56px;
+        font-weight: bolder;
+        color: #000;
+    }
+
+    .cider__desc {
+        font-size: 16px;
+        color: #454545;
+        margin-bottom: 40px;
+    }
+
+    .cider__btn {
+        background-color: #F6623E;
+        padding: 13px 25px;
+        display: inline-block;
+    }
+
+    .up {
+        background-size: cover;
+        width: 100%;
+    }
+
+    /* Deal */
+
+    .deal__head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 54px;
+        margin-top: 56px;
+    }
+
+    .deal_name {
+        font-size: 36px;
+        color: #000;
+    }
+
+    .deal_name::after {
+        content: '';
+        display: block;
+        position: relative;
+        border: #F6623E solid 2px;
+        top: 10px;
+        width: 132px;
+        left: 65px;
+    }
+
+    .deal__desc {
+        font-size: 18px;
+        color: #454545;
+        margin-bottom: 41px;
+    }
+
+    /* Card */
+    .card__img {
+        display: flex;
+        background-color: #F4F3F4;
+        height: 410px;
+        align-items: center;
+    }
+
+    .card__img img {
+        width: 100%;
+
+    }
+
+    .card__item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card__text {
+        display: flex;
+        color: #000;
+        font-size: 18px;
+        margin: 23px 0;
+        justify-content: center;
+    }
+
+    /* Serve */
+    .deal__serv {
+        display: flex;
+        gap: 56px;
+        margin: 123px 0;
+    }
+
+    .serv__item, .item__text {
+        text-align: center;
+    }
+
+    .item__name {
+        color: #000;
+        font-size: 24px;
+        margin: 15px 0;
+    }
+
+    .item__desc {
+        color: #9d9d9d;
+        font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #FFF8F6;
+        position: relative;
+        background-image: url(../assests/img/slidershow2-2-1920x960_1920x9602.png);
+        background-position: top;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
+
+    .footer__items {
+        display: flex;
+        gap: 100px;
+        margin: 123px 0;
+    }
+
+    .footer__good {
+        max-width: 274px;
+        text-align: center;
+    }
+
+    .good__name {
+        color: #000;
+        font-size: 26px;
+    }
+
+    .good__desc {
+        color: #454545;
+        margin: 12px 0;
+    }
+
+    .touch {
+        text-align: center;
+    }
+
+    .touch__name {
+        color: #000;
+        font-size: 26px;
+        margin-bottom: 37px;
+    }
+
+    .touch__text {
+        color: #454545;
+        font-size: 16px;
+        margin-bottom: 55px;
+    }
+
+    input[type="email"] {
+        background-color: #FFF8F6;
+        border-bottom: 2px solid;
+        font-size: 16px;
+        color: #111;
+        width: 450px;
+    }
+
+    .sub {
+        color: #F6623E;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .inf__name {
+        color: #000;
+        font-size: 20px;
+        margin-bottom: 13px;
+    }
+
+    .info ul {
+        color: #454545;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .deckstop hr {
+        color: #454545;
+    }
+
+    .fot {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px;
+        padding-bottom: 15px;
+    }
+}
